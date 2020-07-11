@@ -16,7 +16,7 @@ cout <<"Ingrese el valor de b:" ;
 cin >> b;
 
 //Proceso
-resultado -= a + b;
+resultado = a + b;
 
 //Salida
 cout << "La suma de a + b es:" <<resultado;
