@@ -28,11 +28,11 @@ cout<< endl;
 //Proceso
 
 
-if (estaExenta == 's') 
+if (estaExenta == 's' || estaExenta  == 'S') 
 {
  cout<<"Total a pagar es:" << subtotal;
 } 
-if(estaExenta == 'n')
+if(estaExenta == 'n' || estaExenta == 'N')
 {
     CalculoDescuento= (subtotal*descuento)/100;
     CalculoImpuesto= (subtotal -CalculoDescuento) *0.15;
