@@ -30,7 +30,10 @@ cout<< endl;
 
 if (estaExenta == 's' || estaExenta  == 'S') 
 {
- cout<<"Total a pagar es:" << subtotal;
+    CalculoDescuento= (subtotal*descuento)/100;
+    CalculoImpuesto= 0;
+    total= subtotal - CalculoDescuento  + CalculoImpuesto;
+    cout<<"Total a pagar es:" << total;
 } 
 if(estaExenta == 'n' || estaExenta == 'N')
 {
