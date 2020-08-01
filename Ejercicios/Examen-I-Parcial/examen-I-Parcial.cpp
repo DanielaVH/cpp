@@ -84,7 +84,7 @@ int main() {
  if ( contrasena == "neo"){
      i = 0 ;
      while( i < 10 ){
-         cout << " *********\\\*****";
+         cout << " **************";
 i++;  
 }
  
