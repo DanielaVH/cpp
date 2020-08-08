@@ -7,20 +7,22 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    int numero = 0;
+    int PrimerDado = 0;
+    int SegundoDado = 0;
+    int TotalDados =0;
 
     srand(time(NULL));
 
-   for (int i = 0; i <=6 ; i++)
-   {
-       system("cls");
-        // genera un numero entre 6 y 10
-        numero = rand() % 6 + 1;
-        cout << "Primer dado: " <<  numero << endl;   
-        numero = rand() % 6 + 1;
-        cout << "Segundo dado: " <<  numero << endl;   
-        cout << endl;
-   }
+    system("cls");
+     // genera un numero entre 6 y 10
+    PrimerDado = rand() % 6 + 1;
+    cout << "Primer dado: " <<  PrimerDado << endl;   
+    SegundoDado = rand() % 6 + 1;
+    cout << "Segundo dado: " <<  SegundoDado << endl;   
+    cout << endl;
+   
+   TotalDados = PrimerDado + SegundoDado;
+   cout << "El total de los dos dados es: " << TotalDados; 
     
     return 0;
 }
