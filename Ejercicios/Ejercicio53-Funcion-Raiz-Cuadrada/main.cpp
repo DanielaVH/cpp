@@ -8,13 +8,13 @@ int main(int argc, char const *argv[])
     double numero = 0;
     double raizCuadrada = 0;
 
-cout << "Ingrese un numero: ";
-cin >> numero;
+    cout << "Ingrese un numero: ";
+    cin >> numero;
 
-raizCuadrada = sqrt(numero);
+    raizCuadrada = sqrt(numero);
 
-cout  << endl;
-cout << "La raiz cuadrada es: " << raizCuadrada;
+    cout  << endl;
+    cout << "La raiz cuadrada es: " << raizCuadrada;
 
     
    
