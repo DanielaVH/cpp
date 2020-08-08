@@ -4,28 +4,28 @@ using namespace std;
 
 void menu()
 {
-    int opcion =0;
+  int opcion =0;
 
-    while (true)
+  while (true)
+  {
+    system ("cls");
+  
+    cout << "****",
+    cout << "MENU";
+    cout << "****";
+
+    cout << endl;
+    cout << "1- Bebidas Calientes" << endl;
+    cout << "2- Bebidas frias" << endl;
+    cout << "3- Reposteria" << endl;
+    cout << "0- Salir" << endl;
+
+    cin >> opcion;
+
+    if (opcion == 0)
     {
-        system ("cls");
+      break;
 
-      cout << "****",
-      cout << "MENU";
-      cout << "****";
-      cout << endl;
-
-     cout << "1- Bebidas Calientes" << endl;
-     cout << "2- Bebidas frias" << endl;
-     cout << "3- Reposteria" << endl;
-     cout << "0- Salir" << endl;
-
-      cin >> opcion;
-
-        if (opcion == 0)
-        {
-          break;
-
-        }
     }
+  }
 }
